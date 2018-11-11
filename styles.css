@@ -1,0 +1,89 @@
+body{
+    background-color: lightgray;
+    }   
+
+header{
+    width: 100%; 
+    background: white;
+    height: 60px;
+    }
+
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 250px;
+    height: 60px;
+    margin: 10px;
+    text-align:center;
+    background-color: mediumaquamarine;    
+    }
+
+.nav-item{
+    width:10%;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    text-align: center; 
+    }
+
+.Maincontent{
+    width:960px;
+    height: 500px;
+    padding: 10px;
+    background-color:white;
+    margin: 30 auto 0;
+    }
+
+h2{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: mediumaquamarine;
+    padding: 10px;
+    margin: 10px;
+    border-style: none none solid none ;
+    border-color: lightgray;
+    margin: 5px;   
+    }
+
+
+img{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    }
+
+#aboutme{
+    color: grey;
+    font-size: 20px;
+    line-height: 40px;
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container {
+    color: white;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
